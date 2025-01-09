@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Christian Lotino Montesor</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="hero">
+            <div class="hero-content">
+                <img src="images/fads.jpg" alt="Your Photo" class="profile-photo">
+                <h1>Christian Lotino Montesor</h1>
+                <p class="subtitle">IT Student | Aspiring Software Developer</p>
+                <p class="info">Bachelor of Science in Information Technology | Divine Word College of Legazpi</p>
+            </div>
+        </header>
+        
+        <nav class="nav-bar">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <main>
+            <section id="about" class="section">
+                <h2><i class="fas fa-user"></i> About Me</h2>
+                <p>I am a fourth-year IT student driven by a passion for developing innovative software solutions and learning new technologies. Seeking an OJT opportunity where I can apply my skills and grow as a software engineer.</p>
+            </section>
+
+            <section id="skills" class="section">
+                <h2><i class="fas fa-code"></i> Skills</h2>
+                <div class="skills-list">
+                    <div><strong>Languages:</strong> HTML, CSS, JavaScript, TypeScript</div>
+                    <div><strong>Web Development:</strong> HTML5, CSS3, Angular, Node.js, Laravel</div>
+                    <div><strong>Databases:</strong> MySQL, MongoDB, Firebase</div>
+                    <div><strong>Tools:</strong> Git, Visual Studio Code</div>
+                </div>
+            </section>
+
+            <section id="projects" class="section">
+                <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+                <div class="project-card">
+                    <h3><i class="fas fa-book"></i>&nbsp;KodiGrow: Interactive Learning Platform</h3>
+                    <p>A web-based platform allowing teachers to create exams and students to take them.</p>
+                    <ul>
+                        <li><strong>Technologies:</strong> Angular, Node.js, MySQL</li>
+                        <li><strong>Role:</strong> Full-stack Developer</li>
+                        <li><strong>Features:</strong> Dynamic question creation, gamified quiz experience</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3><i class="fas fa-sticky-note"></i>&nbsp;Library Management System Project - Advanced Database System</h3>
+                    <p>A platform to digitalize the process in a library.</p>
+                    <ul>
+                        <li><strong>Technologies:</strong>HTML, CSS, PHP</li>
+                        <li><strong>Role:</strong> Backend Developer</li>
+                        <li><strong>Features:</strong> CRUD</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3><i class="fas fa-sticky-note"></i>&nbsp;Medicine Inventory Project - OOP</h3>
+                    <p>A platform to digitalize the process in a library.</p>
+                    <ul>
+                        <li><strong>Technologies:</strong>HTML, CSS, Laravel</li>
+                        <li><strong>Role:</strong>Full-stack Developer</li>
+                        <li><strong>Features:</strong> CRUD</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="achievements" class="section">
+                <h2><i class="fas fa-trophy"></i> Achievements</h2>
+                <div class="achievements-list">
+                    <div class="achievement">
+                        <h3><i class="fas fa-university"></i> Dean's List Recognition</h3>
+                        <p>Achieved Dean's List status for outstanding academic performance during the third year of the IT program. <b><i></i>Top 1 - 1st Semester</i></b></p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <h2><i class="fas fa-envelope"></i>&nbsp;Contact Me</h2>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i>&nbsp;Email: <a href="mailto:christianmontesor@gmail.com">christianmontesor@gmail.com</a></p>
+                    <p><i class="fab fa-github"></i>&nbsp;GitHub: <a href="https://github.com/fads122" target="_blank">https://github.com/fads122</a></p>
+                    <p><i class="fab fa-facebook"></i>&nbsp;Facebook: <a href="https://www.facebook.com/christian.montesor" target="_blank">https://www.facebook.com/christian.montesor</a></p>
+                    <p><i class="fab fa-instagram"></i>&nbsp;Instagram: <a href="https://www.instagram.com/christian.montesor" target="_blank">https://www.instagram.com/christian.montesor</a></p>
+                </div>
+            </section>
+        </main>
+        <section id="resume" class="section">
+            <h2>Download My Resume</h2>
+            <p>Click the button below to download a printable version of my resume.</p>
+            <a href="assets/resume.pdf" download="YourName_Resume.pdf" class="download-button">
+              <button>Download Resume (PDF)</button>
+            </a>
+          </section>                                                        <section id="show-resume" class="section">
+            <h2>View Resume</h2>
+            <button id="toggle-resume-btn">Toggle Resume</button>
+            <div id="resume-modal" style="display: none;">
+                <img src="images/resume.png" alt="Resume Image" class="resume-image">
+                <button id="close-resume-btn">&times;</button>
+            </div>
+        </section>
+          
+          <!-- Add this script tag at the end of your body -->
+          <script src="script/script.js"></script>
+          
+        <footer>
+            <p>&copy; 2025 Christian Lotino Montesor. Built with passion and code.</p>
+        </footer>
+    </div>
+    <script src="script/script.js" defer></script>
+</body>
+</html>
